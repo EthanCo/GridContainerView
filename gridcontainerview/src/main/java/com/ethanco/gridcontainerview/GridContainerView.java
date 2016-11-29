@@ -28,6 +28,10 @@ public class GridContainerView extends LinearLayout {
         this.spanCount = spanCount;
     }
 
+    public int getSpanCount() {
+        return spanCount;
+    }
+
     public int spanHeight; //span高度 px
     public int spanCount; //列数
     private LinearLayout currLineView; //现在所在列的View
