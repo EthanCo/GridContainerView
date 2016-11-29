@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="GridContainerView">
+        <!--span高度-->
         <attr name="span_height" format="dimension" />
+        <!--每一行span的数量-->
         <attr name="span_count" format="integer" />
     </declare-styleable>
 </resources>
