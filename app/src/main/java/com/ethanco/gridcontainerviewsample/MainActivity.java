@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final GridContainerView gridContainerView = (GridContainerView) findViewById(R.id.grid_container_view);
+        //gridContainerView.setSpanCount(3);
+        //gridContainerView.setSpanHeight(100); //dp
         attachNewSpan(gridContainerView);
         Button btnAddNewSpan = (Button) findViewById(R.id.btn_add_new_span);
         btnAddNewSpan.setOnClickListener(new View.OnClickListener() {
